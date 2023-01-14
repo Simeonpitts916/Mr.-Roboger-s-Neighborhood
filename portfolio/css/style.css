@@ -1,20 +1,30 @@
 .sidebar {
-    background-color: #98687e;
+    background-color:deepskyblue;
     width: 300px;
-    height: inherit;
     text-align: center;
     height: 1500px;
-    padding: 0%;
-    border: 0px;
-    margin: 0px;
 }
 
 .photo {
     background-color: aqua;
-    padding: 100px;
+    background-size: cover;
+    padding: 20px;
 }
 
 .border {
     background-color: black;
     width: 310px;
+}
+
+.name {
+    text-decoration: underline;
+}
+
+.name + .port {
+    margin-top: -25px;
+}
+
+p {
+    text-align: left;
+    text-decoration: underline;
 }
